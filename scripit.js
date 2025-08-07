@@ -1,6 +1,6 @@
 const convertButton = document.querySelector(".convert-button")
 const currencySelect = document.querySelector(".currency-select")
-//const currencySelectConvert = document.querySelector("#currency-select-convert")
+const currencySelectConvert = document.querySelector("#currency-select-convert")
 
 
 function convertValues() {
@@ -11,6 +11,8 @@ function convertValues() {
 
     const currencyValueConverted = document.querySelector(".currency-value") //valor outras moedas
 
+    console.log(currencySelectConvert.value)
+    
     const dollarToday = 5.2
     const euroToday = 6.2
     const libraToday = 7.9
