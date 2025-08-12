@@ -24,9 +24,13 @@
             <br />
             <br />
 
-            <select  id="currency-select-convert">
+            <select id="currency-select-convert">
                 <option value="real"> R$ Real Brasileiro </option>
-               
+                <option value="dolar"> US$ Dólar americano</option>
+                <option value="euro"> € Euro </option>
+                <option value="libra"> £ Libra </option>
+                <option value="bitcoin"> Bitcoin </option>
+
             </select>
 
         </label>
@@ -37,7 +41,7 @@
             <br />
 
             <select class="currency-select">
-               
+                 <option value="real"> R$ Real Brasileiro </option>
                 <option value="dolar"> US$ Dólar americano</option>
                 <option value="euro"> € Euro </option>
                 <option value="libra"> £ Libra </option>
@@ -60,8 +64,8 @@
         <section>
 
             <div class="currency-box">
-                <img class="section-img" src="./assets/real.png" alt="moeda-Brasil" />
-                <p class="currency">Real</p>
+                <img class="section-img" id="change-image-convert" src="./assets/real.png" alt="moeda-Brasil" />
+                <p class="currency" id="currency-name-convert">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
 
             </div>
@@ -82,6 +86,6 @@
 
 </body>
 
-<script src="./scripit.js"></script>
+<script src="./script.js"></script>
 
 </html>
